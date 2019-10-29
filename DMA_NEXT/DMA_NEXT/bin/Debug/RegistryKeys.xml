@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Registry>
+  <Entity Name ="HKCU">
+    <Property Name ="LastLoggedLibrary"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Login" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="Username"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Login" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="LoginMode"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Login" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="Network Name"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Login" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>     
+    <Property Name ="Cache Lookups"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Settings\Cache" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="Max Lookup Cache"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Settings\Cache" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="Max Size"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Settings\QuickSearches" BestPracticeValue ="250" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="PreCache"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Settings\Cache" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="ForegroundFlashCount"  Path ="Control Panel\Desktop" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="AuthnLevel"  Path ="Software\Hummingbird\Clusters" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="CleanupTimeOut"  Path ="Software\Hummingbird\Clusters" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="CacheDir"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="CachePeriod"  Path ="Software\Hummingbird\PowerDOCS\Core\Plugins\Fusion\Settings" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="ReadBuffer64K"  Path ="Software\Hummingbird\PowerDOCS\Core\CacheMgr" BestPracticeValue ="256" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="WriteBuffer64K"  Path ="Software\Hummingbird\PowerDOCS\Core\CacheMgr" BestPracticeValue ="256" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="CopyFilePath"  Path ="Software\Hummingbird\PowerDOCS\AppIntegration" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="TimeOutDate"  Path ="Software\Hummingbird\PowerDOCS\AppIntegration" BestPracticeValue ="None" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    <Property Name ="MultiUser"  Path ="Software\Hummingbird\PowerDOCS\AppIntegration" BestPracticeValue ="0" Description ="This is a description" Component ="eDOCS" Status ="Informative"></Property>
+    
+    
+  
+  
+    
+    
+    
+  </Entity>
+  
+  
+  
+</Registry>
