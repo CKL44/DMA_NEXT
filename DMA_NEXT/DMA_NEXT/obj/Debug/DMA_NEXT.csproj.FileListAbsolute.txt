@@ -46,3 +46,15 @@ C:\Repository\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.csproj.GenerateResource.cache
 C:\Repository\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.csproj.CoreCompileInputs.cache
 C:\Repository\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.exe
 C:\Repository\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.pdb
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\bin\Debug\DMA_NEXT.exe
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\bin\Debug\DMA_NEXT.pdb
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.csprojAssemblyReference.cache
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\Interop.WindowsInstaller.dll
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.csproj.ResolveComReference.cache
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.DMA_Splash.resources
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.Form1.resources
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.Properties.Resources.resources
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.csproj.GenerateResource.cache
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.csproj.CoreCompileInputs.cache
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.exe
+C:\Users\cliem\source\repos\DogCode44\DMA_NEXT\DMA_NEXT\DMA_NEXT\obj\Debug\DMA_NEXT.pdb

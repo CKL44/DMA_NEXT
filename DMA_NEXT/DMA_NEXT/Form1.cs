@@ -19,6 +19,8 @@ namespace DMA_NEXT
         string XMLRegValues = System.AppDomain.CurrentDomain.BaseDirectory + "\\RegistryKeys.xml";
         TabControl tab;
         List<DataTable> TableList = new List<DataTable>();
+    
+        
 
         public Form1()
         {
@@ -46,7 +48,8 @@ namespace DMA_NEXT
             MainTabControl.TabPages.Add(LogTab);
             MainTabControl.TabPages.Remove(SysInfoTab);
             MainTabControl.TabPages.Add(SysInfoTab);
-            
+          
+           
 
         }
 
@@ -95,8 +98,21 @@ namespace DMA_NEXT
                     dGV.GridColor = Color.Black;
                     dGV.AllowUserToAddRows = false;
                     dGV.CellBorderStyle = DataGridViewCellBorderStyle.Sunken;
+                    dGV.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                    ContextMenuStrip mnu = new ContextMenuStrip();
+                    ToolStripMenuItem mnuCopy = new ToolStripMenuItem("Copy");
+                    ToolStripMenuItem mnuCut = new ToolStripMenuItem("Cut");
+                    ToolStripMenuItem mnuPaste = new ToolStripMenuItem("Paste");
+                    //Assign event handlers
+                    //mnuCopy.Click += new EventHandler(mnuCopy_Click);
+                    //mnuCut.Click += new EventHandler(mnuCut_Click);
+                    //mnuPaste.Click += new EventHandler(mnuPaste_Click);
+                    //Add to main context menu
+                    mnu.Items.AddRange(new ToolStripItem[] { mnuCopy, mnuCut, mnuPaste });
+                    //Assign to datagridview
+                    dGV.ContextMenuStrip = mnu;
 
-                  
+
 
                     tItem.Controls.Add(dGV); //Add Datagrid to tab object 
 
@@ -492,5 +508,8 @@ namespace DMA_NEXT
 
 
         }
+
+
+        
     }
 }
