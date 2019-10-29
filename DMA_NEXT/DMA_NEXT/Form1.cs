@@ -63,7 +63,7 @@ namespace DMA_NEXT
             XmlDocument xdoc = new XmlDocument();
 
             xdoc.Load(XMLRegValues);
-          // // LV.Items.Clear();
+           LV.Items.Clear();
 
             foreach (KeyValuePair<string, string> pair in proflist)
             {
