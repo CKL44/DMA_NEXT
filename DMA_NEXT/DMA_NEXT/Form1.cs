@@ -100,15 +100,15 @@ namespace DMA_NEXT
                     dGV.CellBorderStyle = DataGridViewCellBorderStyle.Sunken;
                     dGV.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
                     ContextMenuStrip mnu = new ContextMenuStrip();
-                    ToolStripMenuItem mnuCopy = new ToolStripMenuItem("Copy");
+                    ToolStripMenuItem mnufix = new ToolStripMenuItem("Fix");
                     ToolStripMenuItem mnuCut = new ToolStripMenuItem("Cut");
                     ToolStripMenuItem mnuPaste = new ToolStripMenuItem("Paste");
                     //Assign event handlers
-                    //mnuCopy.Click += new EventHandler(mnuCopy_Click);
+                    //mnufix.Click += new EventHandler(mnuCopy_Click);
                     //mnuCut.Click += new EventHandler(mnuCut_Click);
                     //mnuPaste.Click += new EventHandler(mnuPaste_Click);
                     //Add to main context menu
-                    mnu.Items.AddRange(new ToolStripItem[] { mnuCopy, mnuCut, mnuPaste });
+                    mnu.Items.AddRange(new ToolStripItem[] { mnufix, mnuCut, mnuPaste });
                     //Assign to datagridview
                     dGV.ContextMenuStrip = mnu;
 
@@ -156,7 +156,7 @@ namespace DMA_NEXT
             //DataTable sysInfo = (DataTable)sysdatagridView.DataSource;
             //TableList.Add(sysInfo);
             Utility.WriteDataTablesXML(TableList, @"C:\\Codetest");
-        }
+        } //end of Analyze2 function
 
 
 
