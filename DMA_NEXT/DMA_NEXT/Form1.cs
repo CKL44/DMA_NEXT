@@ -101,14 +101,14 @@ namespace DMA_NEXT
                     dGV.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
                     ContextMenuStrip mnu = new ContextMenuStrip();
                     ToolStripMenuItem mnufix = new ToolStripMenuItem("Fix");
-                    ToolStripMenuItem mnuCut = new ToolStripMenuItem("Cut");
-                    ToolStripMenuItem mnuPaste = new ToolStripMenuItem("Paste");
+                    ToolStripMenuItem mnuView = new ToolStripMenuItem("View");
+                    //ToolStripMenuItem mnuPaste = new ToolStripMenuItem("Paste");
                     //Assign event handlers
-                    //mnufix.Click += new EventHandler(mnuCopy_Click);
-                    //mnuCut.Click += new EventHandler(mnuCut_Click);
+                     mnufix.Click += new EventHandler(mnuFix_Click);
+                    mnuView.Click += new EventHandler(mnuView_Click);
                     //mnuPaste.Click += new EventHandler(mnuPaste_Click);
                     //Add to main context menu
-                    mnu.Items.AddRange(new ToolStripItem[] { mnufix, mnuCut, mnuPaste });
+                    mnu.Items.AddRange(new ToolStripItem[] { mnufix, mnuView, });
                     //Assign to datagridview
                     dGV.ContextMenuStrip = mnu;
 
@@ -159,11 +159,30 @@ namespace DMA_NEXT
         } //end of Analyze2 function
 
 
+        private void mnuFix_Click(object sender, EventArgs e)
+        {
+
+            MessageBox.Show("Hell0");
 
 
-        
+        }
 
-       
+        private void mnuView_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -322,18 +341,12 @@ namespace DMA_NEXT
                 {
 
 
-                    if (regValue.ToString() != bestPracticeValue.ToString() | !string.IsNullOrEmpty(regValue.ToString()))
+                    if (regValue.ToString() != bestPracticeValue.ToString() | !string.IsNullOrEmpty(regValue.ToString())) //compare values 
                     {
                         row["Flagged"] = "Y";
 
                         
-                        // LB.Items.Add(Utility.ConvertSID(value) + "\t" + i.Key);
-
-
-                        //ListViewItem fixVI = new ListViewItem();
-                        //fixVI.Content = i;
-                        //FixLV.Items.Add(fixVI);
-
+                        
 
 
                     }
