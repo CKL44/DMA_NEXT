@@ -102,13 +102,14 @@ namespace DMA_NEXT
                     ContextMenuStrip mnu = new ContextMenuStrip();
                     ToolStripMenuItem mnufix = new ToolStripMenuItem("Fix");
                     ToolStripMenuItem mnuView = new ToolStripMenuItem("View");
+                    ToolStripMenuItem mnuHelp = new ToolStripMenuItem("Help");
                     //ToolStripMenuItem mnuPaste = new ToolStripMenuItem("Paste");
                     //Assign event handlers
                      mnufix.Click += new EventHandler(mnuFix_Click);
                     mnuView.Click += new EventHandler(mnuView_Click);
                     //mnuPaste.Click += new EventHandler(mnuPaste_Click);
                     //Add to main context menu
-                    mnu.Items.AddRange(new ToolStripItem[] { mnufix, mnuView, });
+                    mnu.Items.AddRange(new ToolStripItem[] { mnufix, mnuView, mnuHelp });
                     //Assign to datagridview
                     dGV.ContextMenuStrip = mnu;
 
